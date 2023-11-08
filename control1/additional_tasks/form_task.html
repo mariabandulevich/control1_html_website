@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table width="600px" cellspacing="1" cellpadding="5" border="1" align="center">
+
+    <tr>
+        <td>Дополнительные задачи</td>
+    </tr>
+
+    <tr>
+        <td>
+            <ul>
+                <li><a href="./dom_js.html" target="_self">DOM_JS. Считываем информацию из DOM</a>
+                <li><a href="./task2.html" target="_self">Изменяем кириллицу на латиницу по клику</a>
+                <li><a href="./task3.html" target="_self">Решение алгоритмической задачи</a>
+              <li><a href="./task3.html" target="_self"><b>Форма для решения алгоритмической задачи</b></a>
+
+            </ul>
+        </td>
+    </tr>
+
+    <!--Уникальное содержание страницы-->
+    <tr>
+        <td>
+            <h3 align="center">Форма для решения алгоритмической задачи</h3>
+            <p>Можно ли в квадратном зале площадью S поместить круглую сцену радиусом R так, чтобы от стены до сцены был проход не менее K? Если можно - отправить все на сервер</p>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <ul>
+        <li>для поисковика:<input name="q" value="search"></li>
+        <li>формулировка задачи <input name="formulation"  value="Можно ли в квадратном зале площадью S поместить круглую сцену радиусом R так, чтобы от стены до сцены был проход не менее K? Если можно - отправить все на сервер"></li>
+        <li>Площадь зала S: <input id="s" name="s"  type="number" value=36></li>
+        <li>Радиус сцены R: <input id="r" name="r"  type="number" value=2></li>
+        <li>Длина прохода K: <input id="k" name="k"  type="number" value=1></li>
+        <li>результат решения: <input name="result" value="не определен"></li>
+        <li>действие 1: <input id="verify" type="button" value="Проверить"></li>
+        <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+    </ul>
+</form>
+<p id="result">Результаты вычислений:  </p>
+    <tr>
+        <td>нижний блок сайта</td>
+    </tr>
+</table>
+</body>
+<script src="form_task.js"></script>
+</html>

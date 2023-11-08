@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задать вопрос</title>
+</head>
+<body>
+<header>
+    <a href="./index.html" target="_self">Главная страница</a>
+    <a href="./career.html" target="_self">Карьера</a>
+    <a href="./skills.html" target="_self">Нужные навыки</a>
+    <a href="./questions.html" target="_self"><b>Задать вопрос</b></a>
+    <a href="https://habr.com/ru/companies/netologyru/articles/656485/" target="_blank">Узнать больше</a>
+    <a href="index.html#definition" target="_self" title="definition">Определение компьютерной лингвистики</a>
+    <a href="https://www.hse.ru/ba/ling/" target="_self"><img width="25" height="25" src="https://cojo.ru/wp-content/uploads/2022/12/vysshaia-shkola-ekonomiki-logo-1.webp"></a>
+
+
+</header>
+<main>
+    <h1 align="center">Задать вопрос</h1>
+    <p align="center">Если у вас остались какие-то вопросы, пожалуйста, заполните форму ниже:</p>
+  <section>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <h3>Сначала введите и отправьте ваши контактные данные:</h3>
+        <p>Для поисковика:<input type="Text" name="q" value="search"></p>
+    <p>Введите имя: <input type="Text" name="name" size=20  value="Иван" id="id1"></p>
+    <p>Введите фамилию: <input type="Text" name="last_name" size=20 value="Иванов"></p>
+        <p>Введите ваш номер телефона: <input type="tel" name="phone_number" size="20" value="88005553535"></p>
+    <p>Дата отправки: <input type="date" name="user_date"  value='2023-10-22'></p>
+        <p>Введите электронную почту: <input type="Text" name="email" value="ivanov@gmail.com"></p>
+        <p>
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+    </form>
+            <form action="https://www.bing.com/search?" id="UserEnter2" name="UserEnter" target="_blank">
+
+        <h3>Далее заполните следующую форму и задайте ваш вопрос:</h3>
+                 <p>Для поисковика:<input type="Text" name="q" value="search"></p>
+                <p>Введите ваш возраст: <input type="number" name="age" size=20  value="18"></p>
+
+        <p>Куда прислать ответ на ваш вопрос?
+            <br>
+            <input type="radio" name="answer" value="На почту" checked="">На почту
+            <input type="radio" name="answer" value="По номеру телефона">По номеру телефон
+        </p>
+                <p>В какой день вам удобно получить ответ: <input type="date" name="user_date"  value='2023-11-01'></p>
+        <p>Пароль:
+    <input type="password" maxlength="25" size="40" name="password" value="ivan2023"></p>
+        <p>Поняли ли вы, что такое компьютерная лингвистика?</p>
+   <p><input type="checkbox" name="a" value="noq"> Да, теперь я знаю все про эту сферу</p>
+   <p><input type="checkbox" name="a" value="yes" checked=""> Да, но у меня остались некоторые вопросы</p>
+   <p><input type="checkbox" name="a" value="maybe"> Не совсем понятно, поэтому я задам вопросы</p>
+   <p><input type="checkbox" name="a" value="no"> Вообще ничего не понял</p>
+   <p><input type="checkbox" name="a" value="n"> Ничего не понял и не буду задавать вопросы</p>
+
+
+    <input type="hidden" name="function"  value="page">
+
+
+    <p>
+
+        <p> Ваш вопрос:
+        <br>
+        <TEXTAREA cols=80 name="textarea" rows=4 placeholder="Сколько зарабатывают компьютерные лингвисты?"></TEXTAREA>
+    </p>
+<p>
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+
+</form>
+  </section>
+</main>
+</body>
+</html>
